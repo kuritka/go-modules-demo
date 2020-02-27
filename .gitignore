@@ -37,4 +37,4 @@ vendor/
 # Crash log files
 **/crash.log
 
-istio-proxy
+gomodules
