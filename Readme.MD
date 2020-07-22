@@ -255,6 +255,11 @@ If you use `vendor` directories, you import all references from `vendor` . Not s
 because `vendor` analyze your references, it also updates `go.mod` file automatically by package version it downloads
 
 
+### cleaning cache
+```shell script
+go clean -modcache
+```
+
 ### readonly 
 
 `go build -mod=readonly .` says that nobody can modify mod file when build is under way. reccomendation is to use that in production build .
